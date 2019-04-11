@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather-app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+        <section class="container">
+            <div class="watch">
+                <span class="hours"></span>
+                <span class="minutes"></span>
+                <span class="seconds"></span>
+            </div>
+        </section>
+        
+        <section class="main">
+       
+            <section class="location-section">
+    <div class="location">
+
+        <h1 class="location-timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+        <h2 class="temperature-degree">32</h2>
+        <span>F</span>
+        </div>
+        <p class="temperature-description">It's cold.</p>
+        <span></span>
+        <p class="visibility-description">Visibility</p>
+
+    </div>
+
+    <h2>Click for Celsius</h2>
+
+    </section>
+
+    <section class="radio-section">
+
+        <h2>
+            AntyRadio
+        </h2>
+        
+        <div class="radio">
+            <audio src="https://n-22-6.dcs.redcdn.pl/sc/o2/Eurozet/live/antyradio.livx?audio=5" autoplay="true" controls="true" volume="1.0"></audio>
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        </div>
+
+    </section>
+    </section>
+
+    <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    </div>
+
+
+    <script src="js/index.js" async defer></script>
+    <script src="js/skycons.js" async defer></script>
+    </body>
+</html>

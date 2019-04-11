@@ -1,0 +1,112 @@
+
+/* Main style config */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    color: white;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 10%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Weather-app style */
+
+.location-section {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+}
+
+.location, {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+/* Clock style */
+
+.clock {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 42px;
+    letter-spacing: 7px;
+}
+
+/* Radio style */
+
+.radio-section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Wave animation */
+
+.ocean {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #015871;
+}
+
+.wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+
+    0%,
+    100% {
+        transform: translate3d(0, -25px, 0);
+    }
+
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+}
