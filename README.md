@@ -9,6 +9,7 @@ listening to the great music!
 ## Build status
 This page is still in building process.
 I am consider to add more futures like: news, dialy duty etc. 
+I have to fix wave-animation (to make it much more smooth).
 
 ## Code style
 I didn't make code review for this one, so there is possibility for a little chaos in my code. //for now
