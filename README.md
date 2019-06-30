@@ -18,8 +18,5 @@ I didn't make a code review for this one, so there is a possibility for a little
 ## Tech/framework used
 HTML, CSS, JS.
 
-## Special thanks to: 
-Edd dev - his weather-app tutorial was an inspiration for me to do this project.
-
 ## Live site:
 https://282621.github.io/weather-App-radio/
