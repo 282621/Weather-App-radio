@@ -1,3 +1,5 @@
+## LIVE CODE: https://282621.github.io/weather-App-radio/
+
 ## Weather-App-radio
 This project is a combination of a few must-have(at least for me, in daily routine) perks like weather-app, radio, and clock.
 
@@ -18,5 +20,3 @@ I didn't make a code review for this one, so there is a possibility for a little
 ## Tech/framework used
 HTML, CSS, JS.
 
-## Live site:
-https://282621.github.io/weather-App-radio/
